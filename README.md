@@ -106,11 +106,13 @@ torchrun evaluate-MAD-AD.py \
 If you find MAD-AD useful in your research, please cite our work:
 
 ```bibtex
-@article{beizaee2025mad,
+@inproceedings{beizaee2025mad,
   title={MAD-AD: Masked Diffusion for Unsupervised Brain Anomaly Detection},
   author={Beizaee, Farzad and Lodygensky, Gregory and Desrosiers, Christian and Dolz, Jose},
-  journal={arXiv preprint arXiv:2502.16943},
-  year={2025}
+  booktitle={International Conference on Information Processing in Medical Imaging},
+  pages={139--153},
+  year={2025},
+  organization={Springer}
 }
 ```
 
