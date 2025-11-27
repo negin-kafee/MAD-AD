@@ -1,0 +1,16 @@
+# Additional requirements for dataset preparation
+# Install these along with the main requirements.txt
+
+# Core data processing
+nibabel>=5.0.0
+scikit-image>=0.21.0
+scipy>=1.11.0
+tqdm>=4.65.0
+
+# Optional: For MNI registration (highly recommended)
+# antspyx>=0.3.8
+
+# Note: ANTsPy installation can be tricky on some systems.
+# Alternative: Install ANTs command-line tools
+# - macOS: brew install ants
+# - Linux: https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS

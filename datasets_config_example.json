@@ -1,0 +1,28 @@
+{
+  "datasets": {
+    "IXI_T1": {
+      "processed_dir": "./processed_data/ixi_t1",
+      "use_for": ["train", "val"],
+      "description": "IXI T1-weighted MRI images (healthy subjects)"
+    },
+    "IXI_T2": {
+      "processed_dir": "./processed_data/ixi_t2",
+      "use_for": ["train", "val"],
+      "description": "IXI T2-weighted MRI images (healthy subjects)"
+    },
+    "MOOD": {
+      "processed_dir": "./processed_data/mood",
+      "use_for": ["train", "val"],
+      "description": "MOOD brain MRI images (healthy subjects)"
+    },
+    "BraTS": {
+      "processed_dir": "./processed_data/brats",
+      "use_for": ["test"],
+      "description": "BraTS brain MRI with tumor segmentation (for testing anomaly detection)"
+    }
+  },
+  "settings": {
+    "image_size": 256,
+    "modalities": ["T1", "T2"]
+  }
+}
